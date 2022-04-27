@@ -6,19 +6,19 @@ const Nav = (props) => {
     <div>
       <div className="navbar bg-secondary text-neutral">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl hover:bg-accent">
+          <Link className="btn btn-ghost normal-case text-xl transition ease-in-out delay-150 bg-primary hover:-translate-y-1 hover:scale-110 hover:bg-accent hover:text-white duration-300" to="/">
             Memory Lane
-          </a>
+          </Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal p-0">
             <li>
-              <Link className="hover:bg-accent" to="/">
+              <Link className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-accent hover:text-white duration-300" to="/">
                 Home
               </Link>
             </li>
             <li tabIndex="0">
-              <Link className="hover:bg-accent" to="/AboutUs">
+              <Link className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-accent hover:text-white duration-300" to="/AboutUs">
                 About Us
               </Link>
             </li>
