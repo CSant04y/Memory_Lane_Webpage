@@ -5,22 +5,24 @@ import SpeechMenu3 from '../assets/GamePlay/SpeechMenu3.jpg';
 
 const ImportantSection = () => {
   return (
-    <div className="bg-base-100 text-center py-6 px-0 md:px-2">
-      <div className="container mx-auto py-4 px-2">
-        <div className="grid h-auto card bg-accent-content rounded-box place-items-center text-accent p-0 md:p-3 py-8 leading-relaxed shadow-xl">
-          <h1 className="text-3xl md:text-5xl font-bold py-7 px-2 md:px-4">
+    <div className="bg-base-100 py-6 px-0 md:px-2">
+      <div className="container mx-auto py-4 sm:px-2">
+        <div className="grid h-auto card bg-accent-content rounded-box text-accent p-0 md:px-3 py-8 leading-relaxed shadow-xl">
+        <div className='pl-6'>
+          <h1 className="text-3xl md:text-5xl font-bold text-left py-7 px-2 md:px-4">
             How does this Work?
           </h1>
+        </div>
           <div className="">
             <div className="py-5 px-5">
-              <h2 className="text-1xl md:text-2xl py-3 px-5 text-center">
+              <p className="text-1xl md:text-2xl py-1 md:py-3 px-3 md:px-5 text-left">
                 We at Memory Lane have created a virtual experience that brings
                 a new way to memorize those important things. Anything from
                 important speeches that need to be memorized-to poems and songs.
                 The possibilities are up to you.
-              </h2>
+              </p>
             </div>
-            <div className="container md:flex md:flex-row flex-col justify-around p-5">
+            <div className="md:flex lg:flex-row flex-col justify-around p-5 items-center">
               <div className="card w-96 bg-accent shadow-xl">
                 <figure>
                   <img src={SpeechMenu3} alt="Speech Selection" />
