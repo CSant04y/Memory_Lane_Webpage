@@ -1,9 +1,9 @@
 import React from 'react';
-import SpeechPopUp1 from '../assets/GamePlay/SpeechPopUp-1.jpg';
-import SpeechPopUp2 from '../assets/GamePlay/SpeechPopUp-2.jpg';
-import SpeechPopUp3 from '../assets/GamePlay/SpeechPopUp-3.jpg';
-import SpeechPopUp4 from '../assets/GamePlay/SpeechPopUp-4.jpg';
-import SpeechPopUp5 from '../assets/GamePlay/SpeechPopUp-5.jpg';
+import SpeechPopUp1 from '../assets/GamePlay/speech_pagination-1.jpg';
+import SpeechPopUp2 from '../assets/GamePlay/speech_pagination-2.jpg';
+import SpeechPopUp3 from '../assets/GamePlay/speech_pagination-3.jpg';
+import SpeechPopUp4 from '../assets/GamePlay/speech_pagination-4.jpg';
+import SpeechPopUp5 from '../assets/GamePlay/speech_pagination-5.jpg';
 
 const Carousel = () => {
   return (

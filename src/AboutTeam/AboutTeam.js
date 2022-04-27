@@ -4,7 +4,7 @@ import profile2 from '../assets/Headshots/profile-2.jpg';
 import profile3 from '../assets/Headshots/profile-3.jpg';
 import OcculusLogo from '../assets/oculus-vr-24.png';
 import GithubLogo from '../assets/icons8-github-24.png';
-import LinkedinLogo from '../assets/icons8-linkedin-24.png';
+import LinkedinLogo from '../assets/icons8-linkedin-30.png';
 import TwitterLogo from '../assets/icons8-twitter-24.png';
 
 const AboutTeam = () => {
